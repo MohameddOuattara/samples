@@ -1,4 +1,12 @@
 * {
     margin: 0px;
     padding: 0px;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+section h2 {
+    background-color: darkorchid;
+    border: 2px solid rgb(121, 33, 165);
 }
