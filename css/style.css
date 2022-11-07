@@ -1,12 +1,182 @@
 * {
     margin: 0px;
     padding: 0px;
-    background-color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    box-sizing: border-box;
+}
+footer {
+    background-color: rgb(67, 4, 64);
+    display: block;
+    width: 100%;
+    height: 6%;
+    margin-top: 3%;
+    position: fixed;
+    bottom: 0%;
 }
 
-section h2 {
-    background-color: darkorchid;
-    border: 2px solid rgb(121, 33, 165);
+/*DESKTOP DISPLAY - START*/
+@media (min-width: 992px) and (max-width: 1920px) {
+    
+    body {
+        background-image: linear-gradient(to right, rgb(119, 7, 115) , rgb(67, 4, 64))
+    }
+    
+    header {
+        position: static;
+        color: whitesmoke;
+        /*background-color: darkorange;*/
+    }
+    h1 {
+        position: relative;
+        margin: 3% 0%;
+    }
+    
+    
+    section {
+        position: relative;
+        background-color: darkorchid;
+        border: 2px solid rgb(121, 33, 165);
+        margin: 0% 1%;
+        width: 30%;
+        display: inline-block;
+        border-radius: 6px;
+    
+    }
+    h2 {
+        color: white;
+        float: right;
+        padding: 2% 2%;
+        width: 40%;
+        font-size: 100%;
+    }
+    #Chicken {
+        background-color: rgb(121, 33, 165);
+    }
+    #beef {
+        background-color: rgb(121, 33, 165);
+    }
+    #Sushi {
+        background-color: rgb(121, 33, 165);
+    }
+    p {
+        font-size: 0.8em;
+        color: white;
+        padding: 3%;
+        clear: both;
+        text-align: left;
+    }
 }
+/*DESKTOP DISPLAY - END*/
+
+
+
+/*TABLET DISPLAY - START*/
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    body {
+        background-image: linear-gradient(to right, rgb(119, 7, 115) , rgb(67, 4, 64))
+    }
+    header {
+        position: static;
+        color: whitesmoke;
+        /*background-color: darkorange;*/
+    }
+    h1 {
+        position: relative;
+        margin: 3% 0%;
+    }
+    
+    
+    section {
+        position: relative;
+        background-color: darkorchid;
+        border: 2px solid rgb(121, 33, 165);
+        margin: 0% 1%;
+        width: 46%;
+        display: inline-block;
+        border-radius: 6px;
+    }
+    #third_section {
+        width: 94.5%;
+        margin: 2% 1%;
+    }
+    h2 {
+        color: white;
+        float: right;
+        padding: 2% 2%;
+        width: 40%;
+        font-size: 100%;
+    }
+    #Chicken {
+        background-color: rgb(121, 33, 165);
+    }
+    #beef {
+        background-color: rgb(121, 33, 165);
+    }
+    #Sushi {
+        background-color: rgb(121, 33, 165);
+    }
+    p {
+        font-size: 0.8em;
+        color: white;
+        padding: 3%;
+        clear: both;
+        text-align: left;
+    }
+}
+/*TABLET DISPLAY - END*/
+
+
+
+/*MOBILE DISPLAY - START*/
+@media (max-width: 767px) {
+    
+    body {
+        background-image: linear-gradient(to right, rgb(119, 7, 115) , rgb(67, 4, 64))
+    }
+    header {
+        position: static;
+        color: whitesmoke;
+        /*background-color: darkorange;*/
+    }
+    h1 {
+        position: relative;
+        margin: 3% 0%;
+    }
+    
+    
+    section {
+        position: relative;
+        background-color: darkorchid;
+        border: 2px solid rgb(121, 33, 165);
+        margin: 1% 1%;
+        width: 95%;
+        display: inline-block;
+        border-radius: 6px;
+    }
+    h2 {
+        color: white;
+        float: right;
+        padding: 2% 2%;
+        width: 40%;
+        font-size: 100%;
+    }
+    #Chicken {
+        background-color: rgb(121, 33, 165);
+    }
+    #beef {
+        background-color: rgb(121, 33, 165);
+    }
+    #Sushi {
+        background-color: rgb(121, 33, 165);
+    }
+    p {
+        font-size: 0.8em;
+        color: white;
+        padding: 3%;
+        clear: both;
+        text-align: left;
+    }
+}
+/*MOBILE DISPLAY - END*/
